@@ -237,8 +237,8 @@ def send_email():
         send_email()
 
 def send_email_smtp(to, subject, body):
-    from_email = "cs21b1017@iiitr.ac.in"
-    from_password = "Akash597143618"
+    from_email = "akashpyla@gmail.com"
+    from_password = "Password"  #This is not my password Don't try its a waste of time 😂
 
     msg = MIMEMultipart()
     msg['From'] = from_email
